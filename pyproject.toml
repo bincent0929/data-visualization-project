@@ -7,7 +7,10 @@ authors = [
     { name = "Vincent Roberson", email = "ghub@varmail.org" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "altair>=6.3.0",
+    "pandas>=3.0.6",
+]
 
 [project.scripts]
 data-visualization-project = "data_visualization_project:main"
